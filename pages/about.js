@@ -1,5 +1,6 @@
 import Layout from "@/components/Layout"
 import Head from "next/head"
+import Headline from "@/components/Headline"
 
 const About = () => {
   return (
@@ -10,7 +11,10 @@ const About = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      Hello
+      <div>
+
+      </div>
+      <Headline title="AboutPage" page="about" />
     </Layout>
   )
 }
